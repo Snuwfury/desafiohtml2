@@ -1,0 +1,72 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+/*VARIABLES*/
+:root{
+    --font-family-body: 'Montserrat', sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+body{
+    font-family: var(--font-family-body);
+    display: flexbox;
+    flex-direction: column;
+}
+
+/*23 NOVIEMBRE*/
+header{
+    font-size: 66px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*BLACK*/
+.parrafo1{
+    font-size: 197px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+/*FRIDAY*/
+.parrafo2{
+    font-size: 217px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*NO TE LO PIERDAS*/
+div{
+    font-size: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*CLASES*/
+.negroyblanco{
+    background-color: black;
+    color: white;
+}
+.bold{
+    font-weight: 900;
+}
+.semibold{
+    font-weight: 600;
+}
+
+/*ID'S*/
+/*DESCUENTOS*/
+#reng1{
+    font-size: 60px;  
+}
+/*DE HASTA 50%*/
+#reng2{
+    font-size: 48px;
+}
